@@ -110,7 +110,8 @@ p {
 }
 #header .header {
 	min-height: 8vh;
-	background-color: rgba(31, 30, 30, 0.24);
+	background-color: rgb(221, 0, 250);
+	background-image: url(./img/fondo123.jpg);
 	transition: 0.3s ease background-color;
 }
 #header .nav-bar {
@@ -125,7 +126,8 @@ p {
 #header .nav-list ul {
 	list-style: none;
 	position: absolute;
-	background-color: rgb(31, 30, 30);
+	background-color: rgb(221, 0, 250);
+	background-image: url(./img/fondo123.jpg);
 	width: 100vw;
 	height: 100vh;
 	left: 100%;
@@ -308,7 +310,7 @@ p {
 
 /* Hero Section */
 #hero2 {
-	background-image: url(./img/fondo\ 22.jpg);
+	background-image: url(./img/fondo123.jpg);
 	background-size: cover;
 	background-position: top center;
 	position: relative;
@@ -316,7 +318,7 @@ p {
 }
 
 #hero2 {
-	background-image: url(./img/fondo\ 22.jpg);
+	background-image: url(./img/fondo123.jpg);
 	background-size: cover;
 	background-position: top center;
 	position: relative;
@@ -624,6 +626,7 @@ p {
 #footer .footer {
 	min-height: 200px;
 	flex-direction: column;
+	background-image: url(./img/fondo123.jpg);
 	padding-top: 50px;
 	padding-bottom: 10px;
 }
